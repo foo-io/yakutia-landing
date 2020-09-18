@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="http://www.yakutia.aero/bitrix/cache/css/s1/yakutia/template_fcdc7a6ba5a97f5a761dba6cac6f3b65/template_fcdc7a6ba5a97f5a761dba6cac6f3b65_v1.css?159955008795812"> -->
+    <link rel="stylesheet" href="./assets/css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./styles.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="top-menu">
+            <a href="/" class="logo">
+                <img src="./assets/logo.svg" alt="">
+            </a>
+            <div class="bg"></div>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <span>Время вылетов</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Тарифы</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>Купить билеты</span>
+                    </a>
+                </li>
+                <li class="__right">
+                    <a href="#">
+                        <span>На основной сайт</span>
+                    </a>
+                </li>
+            </ul>
+            <a href="#" class="mobile-menu">На основной сайт</a>
+        </div>
+    </header>
+
+    <main>
+        <div class="content">
+            <div class="banner">
+                <img src="./assets/banner.png" alt="" class="banner__img">
+
+                <div class="banner__content">
+                    <div class="banner__meta">
+                        Новые направления
+                    </div>
+                    <h1 class="banner__title">
+                        Москва <img src="./assets/air.svg" alt=""> Махачкала
+                    </h1>
+                    <div class="banner__date">
+                        С 20.09.2020
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="card lg-12 md-12 sm-12">
+                    <div class="buy">
+                        <div class="buy__content">
+                            <div class="buy__content-title">Купить билет</div>
+                            <div class="buy__content-desc">
+                                Откройте для себя новое направление с авиакомпанией «Якутия»! Будем рады видеть вас на борту наших воздушных судов!
+                            </div>
+                        </div>
+                        <div class="buy__button">
+                            <a href="#">Купить билет в Махачкалу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="blocks">
+                    <div class="blocks__item lg-6 md-6 sm-12">
+                        <div class="card">
+                            <div class="departures">
+                                <div class="departures__aircraft">
+                                    Судно BC 737-700
+                                </div>
+                                <div class="departures__title">
+                                    Москва, MOW <img src="./assets/goto.svg" alt=""> Махачкала, MCX
+                                </div>
+                                <div class="departures__days">
+                                    <a href="#" class="departures__days-link">
+                                        <span class="__dep-day">Пятница</span>
+                                        <span class="__dep-time">17:20</span>
+                                    </a>
+                                    <a href="#" class="departures__days-link">
+                                        <span class="__dep-day">Воскресенье</span>
+                                        <span class="__dep-time">07:40</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks__item lg-6 md-6 sm-12">
+                        <div class="card">
+                            <div class="departures">
+                                <div class="departures__aircraft">
+                                    Судно BC 737-700
+                                </div>
+                                <div class="departures__title">
+                                    Махачкала, MCX <img src="./assets/goto.svg" alt=""> Москва, MOW
+                                </div>
+                                <div class="departures__days">
+                                    <a href="#" class="departures__days-link">
+                                        <span class="__dep-day">Пятница</span>
+                                        <span class="__dep-time">11:10</span>
+                                    </a>
+                                    <a href="#" class="departures__days-link">
+                                        <span class="__dep-day">Воскресенье</span>
+                                        <span class="__dep-time">20:50</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks__item lg-6 md-6 sm-12">
+                        <div class="card">
+                            <div class="tariffs__title">
+                                Тарифы из Москвы
+                            </div>
+                            <div class="tariffs__blocks">
+                                <div class="tariffs__blocks-item lg-6 md-6 sm-6">
+                                    <div class="tariffs__img">
+                                        <img src="./assets/without-bag.png" alt="">
+                                    </div>
+                                    <div class="tariffs__content">
+                                        <div class="tariffs__content-text">Без багажа</div>
+                                        <div class="tariffs__content-value">от 2 000 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="tariffs__blocks-item lg-6 md-6 sm-6">
+                                    <div class="tariffs__img">
+                                        <img src="./assets/with-bag.png" alt="">
+                                    </div>
+                                    <div class="tariffs__content">
+                                        <div class="tariffs__content-text">С багажом до 30 кг.</div>
+                                        <div class="tariffs__content-value">от 3 000 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks__item lg-6 md-6 sm-12">
+                        <div class="card">
+                            <div class="tariffs__title">
+                                Тарифы из Якутска и Нерюнгри
+                            </div>
+                            <div class="tariffs__blocks">
+                                <div class="tariffs__blocks-item lg-6 md-6 sm-6">
+                                    <div class="tariffs__img">
+                                        <img src="./assets/without-bag.png" alt="">
+                                    </div>
+                                    <div class="tariffs__content">
+                                        <div class="tariffs__content-text">Без багажа</div>
+                                        <div class="tariffs__content-value">от 16 000 ₽</div>
+                                    </div>
+                                </div>
+                                <div class="tariffs__blocks-item lg-6 md-6 sm-6">
+                                    <div class="tariffs__img">
+                                        <img src="./assets/with-bag.png" alt="">
+                                    </div>
+                                    <div class="tariffs__content">
+                                        <div class="tariffs__content-text">С багажом до 30 кг.</div>
+                                        <div class="tariffs__content-value">от 18 000 ₽</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">
+                    Почему нужно полететь с нами?
+                </div>
+                <div class="blocks __whyus">
+                    <div class="blocks__item lg-4 md-4 sm-12">
+                        <div class="card">
+                            <div class="whyus">
+                                <div class="whyus__img" style="margin-top: -20px;">
+                                    <img src="./assets/whyus-1.png" alt="">
+                                </div>
+                                <div class="whyus__title">
+                                    Багаж до 30 кг.
+                                </div>
+                                <div class="whyus__desc">
+                                    Специальные условия для наших пассажиров по этому направлению
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks__item lg-4 md-4 sm-12">
+                        <div class="card">
+                            <div class="whyus">
+                                <div class="whyus__img">
+                                    <img src="./assets/whyus-2.png" alt="">
+                                </div>
+                                <div class="whyus__title">
+                                    Аэропорт Внуково
+                                </div>
+                                <div class="whyus__desc">
+                                    Вылёт и прилёт в современном терминале Внуково (г. Москва)
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blocks__item lg-4 md-4 sm-12">
+                        <div class="card">
+                            <div class="whyus">
+                                <div class="whyus__img" style="margin-left: 40px;">
+                                    <img src="./assets/whyus-3.png" alt="">
+                                </div>
+                                <div class="whyus__title">
+                                    Комфортабельное судно
+                                </div>
+                                <div class="whyus__desc">
+                                    Полёты осуществляет самолёт Boeing - 700
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="section__title">
+                    Природные достопримечательности Дагестана
+                </div>
+                <div class="gallery">
+                    <div class="gallery__block lg-6 md-6 sm-12">
+                        <div class="gallery__item lg-12">
+                            <a data-fancybox="gallery" href="./assets/photos/1.png">
+                                <img src="./assets/photos/1.png">
+                                <div class="gallery__text">
+                                    <div class="gallery__text-left">
+                                        <img src="./assets/zoom.svg" alt="">
+                                    </div>
+                                    <div class="gallery__text-right">
+                                        Салтинский водопад
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery__item lg-12">
+                            <a data-fancybox="gallery" href="./assets/photos/2.png">
+                                <img src="./assets/photos/2.png">
+                                <div class="gallery__text">
+                                    <div class="gallery__text-left">
+                                        <img src="./assets/zoom.svg" alt="">
+                                    </div>
+                                    <div class="gallery__text-right">
+                                        о. Кезенойам
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="gallery__item main-photo lg-6 md-6 sm-12">
+                        <a data-fancybox="gallery" href="./assets/photos/3.png">
+                            <img src="./assets/photos/3.png">
+                            <div class="gallery__text">
+                                <div class="gallery__text-left">
+                                    <img src="./assets/zoom.svg" alt="">
+                                </div>
+                                <div class="gallery__text-right">
+                                    Карадахская теснина
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__item middle-photo lg-6 md-6 sm-12">
+                        <a data-fancybox="gallery" href="./assets/photos/4.png">
+                            <img src="./assets/photos/4.png">
+                            <div class="gallery__text">
+                                <div class="gallery__text-left">
+                                    <img src="./assets/zoom.svg" alt="">
+                                </div>
+                                <div class="gallery__text-right">
+                                    Самурский лиановый лес
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gallery__block lg-6 md-6 sm-12">
+                        <div class="gallery__item lg-6 md-6 sm-12">
+                            <a data-fancybox="gallery" href="./assets/photos/5.png">
+                                <img src="./assets/photos/5.png">
+                                <div class="gallery__text">
+                                    <div class="gallery__text-left">
+                                        <img src="./assets/zoom.svg" alt="">
+                                    </div>
+                                    <div class="gallery__text-right">
+                                        Сулакский каньон
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="gallery__item lg-6 md-6 sm-12">
+                            <a data-fancybox="gallery" href="./assets/photos/6.png">
+                                <img src="./assets/photos/6.png">
+                                <div class="gallery__text">
+                                    <div class="gallery__text-left">
+                                        <img src="./assets/zoom.svg" alt="">
+                                    </div>
+                                    <div class="gallery__text-right">
+                                        о. Кезенойам
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section __covid">
+                <div class="card lg-12 md-12 sm-12">
+                    <div class="section__title">
+                        COVID-19 в Махачкале
+                        <a href="#" class="section__more-link">Подробнее</a>
+                    </div>
+                    <div class="blocks __covid">
+                        <div class="blocks__item lg-elem-5 md-elem-5 sm-6">
+                            <div class="covid">
+                                <div class="covid__img">
+                                    <img src="./assets/c-1.png" alt="">
+                                </div>
+                                <div class="covid__text">
+                                    В регионе действуют ограничительные меры
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item lg-elem-5 md-elem-5 sm-6">
+                            <div class="covid">
+                                <div class="covid__img">
+                                    <img src="./assets/c-2.png" alt="">
+                                </div>
+                                <div class="covid__text">
+                                    Изоляция по прилёту не требуется
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item lg-elem-5 md-elem-5 sm-6">
+                            <div class="covid">
+                                <div class="covid__img">
+                                    <img src="./assets/c-3.png" alt="">
+                                </div>
+                                <div class="covid__text">
+                                    Для перемещения по городу пропуск не нужен
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item lg-elem-5 md-elem-5 sm-6">
+                            <div class="covid">
+                                <div class="covid__img">
+                                    <img src="./assets/c-4.png" alt="">
+                                </div>
+                                <div class="covid__text">
+                                    В регионе введен масочный режим
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blocks__item lg-elem-5 md-elem-5 sm-6">
+                            <div class="covid">
+                                <div class="covid__img">
+                                    <img src="./assets/c-5.png" alt="">
+                                </div>
+                                <div class="covid__text">
+                                    Отели и кафе работают с ограничениями
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="card lg-12 md-12 sm-12">
+                    <div class="buy">
+                        <div class="buy__content">
+                            <div class="buy__content-title">Купить билет</div>
+                            <div class="buy__content-desc">
+                                Откройте для себя новое направление с авиакомпанией «Якутия»! Будем рады видеть вас на борту наших воздушных судов!
+                            </div>
+                        </div>
+                        <div class="buy__button">
+                            <a href="#">Купить билет в Махачкалу</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section __news">
+                <div class="section__title">
+                    Объявления по направлению
+                </div>
+
+                <div class="blocks">
+                    <div class="blocks__item lg-elem-news md-elem-news sm-12">
+                        <a href="#" class="news-item">
+                            <div class="news-item__title">
+                                Снижение цен по направлению “Москва - Махачкала” на период новогодних праздников
+                            </div>
+                            <div class="news-item__date">
+                                10 марта 2019, 13:34
+                            </div>
+                        </a>
+                    </div>
+                    <div class="blocks__item lg-elem-news md-elem-news sm-12">
+                        <a href="#" class="news-item">
+                            <div class="news-item__title">
+                                Изменение расписания рейсов на воскресенье по направлению “Махачкала - Москва”
+                            </div>
+                            <div class="news-item__date">
+                                10 марта 2019, 13:34
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="news-item__more">
+                    <a href="#" class="news-item__more-link">Все объявления</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="section">
+            <div class="blocks">
+                <div class="blocks__item lg-l-footer md-l-footer sm-12">
+                    <div class="footer__content">
+                        <div class="footer__menu">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>На основной сайт</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Время вылетов</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Тарифы</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Купить билеты</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__logo">
+                            <img src="./assets/footer-logo.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="blocks__item lg-r-footer md-r-footer sm-12">
+                    <div class="footer__info">
+                        <p>
+                            Авиакомпания «Якутия» предоставляет своим пассажирам расширенную сеть маршрутов.
+                        </p>
+                        <p>
+                            Рады сообщить, что к новому зимнему сезону открываются новые рейсы из г.Москва (аэропорт Внуково). Также действуют стыковочные тарифы из Якутска и Нерюнгри (через а/п Внуково), стоимость от 16000 без багажа и от 18000 с багажом.
+                        </p>
+                        <p>
+                            С 20 сентября 2020 года авиакомпания «Якутия» открывает новый регулярный рейс из Москвы в Махачкалу по пятницам и воскресеньям.
+                        </p>
+                        <p>
+                            Махачкала – город на юге России, на берегу Каспийского моря. Третий по численности населения город Северо-Кавказского региона. Однозначные плюсы города — это удобное расположение (за пару часов можно добраться до потрясающих гор и каньонов), теплое море, отличный климат, невероятно красивая природа! Город богат достопримечательностями, которые не оставят никого равнодушным и тронут людские сердца: мечети невероятной красоты, музеи, парки и памятники останутся в памяти путешественников навсегда.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./assets/js/jquery-3.5.1.min.js" charset="utf-8"></script>
+    <script src="./assets/js/jquery.fancybox.min.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        $('img[src$=".svg"]').each(function() {
+            var $img = jQuery(this);
+            var imgURL = $img.attr('src');
+            var attributes = $img.prop("attributes");
+
+            $.get(imgURL, function(data) {
+                var $svg = jQuery(data).find('svg');
+
+                $svg = $svg.removeAttr('xmlns:a');
+
+                $.each(attributes, function() {
+                    $svg.attr(this.name, this.value);
+                });
+
+                $img.replaceWith($svg);
+            }, 'xml');
+        });
+    </script>
+</body>
+
+</html>
